@@ -12,6 +12,7 @@ public class DetallesActivity extends AppCompatActivity {
 
 
     public Activity getActivity(){
+
         return this;
     }
 
