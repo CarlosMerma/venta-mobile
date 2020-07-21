@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         //fragmentManager.beginTransaction().replace(R.id.contenedor,new ProductoFragment()).commit();
         Intent intent = getIntent();
         String message = intent.getStringExtra("username");
-        setTitle(message + " - Bienvenido");
+        setTitle(message + " - Bienvenido a nuestra tienda");
     }
 
     @Override
@@ -125,10 +125,6 @@ public class MainActivity extends AppCompatActivity
         super.onResume();
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         getProductos();
-    }
-
-    public void onClickBtnSend(View v) {
-
     }
 
     public void getProductos(){
