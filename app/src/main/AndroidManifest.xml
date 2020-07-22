@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cs2901.utec.chat_mobile">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="utec.cs2b01">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

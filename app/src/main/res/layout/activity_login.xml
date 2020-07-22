@@ -93,7 +93,8 @@
                 android:text="Registrate"
                 android:textColorHighlight="#03A9F4"
                 android:textColorLink="#5BB0DB"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                tools:ignore="OnClick" />
 
         </LinearLayout>
 
