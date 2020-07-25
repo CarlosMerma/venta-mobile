@@ -101,9 +101,7 @@ public class MainActivity extends AppCompatActivity
 
         android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if (id == R.id.nav_home) {
-            fragmentManager.beginTransaction().replace(R.id.contenedor, new ProductoFragment()).commit();
-        } else if (id == R.id.nav_gallery) {
+       if (id == R.id.nav_gallery) {
             fragmentManager.beginTransaction().replace(R.id.contenedor, new TiendaFragment()).commit();
         } else if (id == R.id.nav_slideshow) {
             fragmentManager.beginTransaction().replace(R.id.contenedor, new ContactoFragment()).commit();

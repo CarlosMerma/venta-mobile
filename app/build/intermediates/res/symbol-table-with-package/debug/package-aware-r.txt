@@ -938,7 +938,6 @@ id middle
 id mini
 id multiply
 id nav_gallery
-id nav_home
 id nav_share
 id nav_slideshow
 id nav_tools
@@ -1099,7 +1098,6 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout element_view
 layout fragment_contacto
-layout fragment_producto
 layout fragment_tienda
 layout fragment_ubicanos
 layout nav_header_main
